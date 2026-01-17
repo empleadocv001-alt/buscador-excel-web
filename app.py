@@ -26,7 +26,7 @@ def cargar_datos():
 df = cargar_datos()
 
 # ---------------- INTERFAZ ----------------
-st.title("🔍 Buscador")
+st.title("🔍 AutoRepuestos Chasi")
 
 busqueda = st.text_input(
     "Buscar",
@@ -63,3 +63,4 @@ if busqueda:
     )
 else:
     st.info("¡Hoy es el mejor dia¡")
+
