@@ -3,7 +3,7 @@ import pandas as pd
 
 # ---------------- CONFIGURACIÓN ----------------
 st.set_page_config(
-    page_title="Buscador",
+    page_title="AutoRepuestos Chasi",
     layout="wide"
 )
 
@@ -62,4 +62,4 @@ if busqueda:
         }
     )
 else:
-    st.info("Escribe para buscar. Optimizado para móvil y escritorio.")
+    st.info("¡Hoy es el mejor dia¡")
